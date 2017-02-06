@@ -78,6 +78,7 @@ header {
     position: relative;
     z-index: 60;
     list-style-type: none;
+    text-align: center;
 }
 #nav li a {
     width: 190px;
@@ -86,7 +87,7 @@ header {
     font-size: 15px;
     color: rgb(0, 0, 0);
     /* font-weight: bold; */
-    padding: 0 14px;
+    padding: 0px;
     text-decoration: none;
 }
 #nav li ul {
@@ -102,7 +103,7 @@ header {
     background: url("../img/opacity.png") repeat;
 }
 #nav li ul li {
-    text-align: left;
+    text-align: center;
     float: none;
     display: block;
     padding: 0;
@@ -112,7 +113,7 @@ header {
 }
 #nav li ul li a {
     line-height: 26px;
-    padding: 0 10px;
+    padding: 0px;
     font-size: 14px;
     color: rgb(0, 0, 0);
 }
