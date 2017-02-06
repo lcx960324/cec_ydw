@@ -9,7 +9,9 @@ div {
     display: inline-block;
 }
 .leftsmall {
-    border: solid #dec19e 10px ;
+    margin: 3px;
+    border: solid #032b83 2px;
+    border-radius: 5px;
     width: 97%;
 }
 .rightbig {
@@ -21,30 +23,37 @@ div {
     display: block;
 }
 .content {
+    position: relative;
     padding-top:  0px;
-    border: solid 1px ;
-    margin:  7px;
+    margin: 5px;
+    border-radius: 5px;
     background: #ffffff;
+    box-shadow: 0px 0px 8px #000000;
     display: block;
-    height: 1000px;
 }
 .content .head {
+    margin-top: 2px;
+    margin-left: 3px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.33);
-    width: 98%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    width: 97%;
     top: 0;
     padding: 2px 5px 2px 5px;
     border: 1px solid #e0e0e0;
 }
 .content .head h3 {
+    margin-left: 5px;
     display: inline-block;
     font-size: 18px;
     color: #032b83;
     vertical-align: middle;
 }
 .content .head .more {
+    vertical-align: middle;
     float: right;
-}
-.content .head .more .more-txt{
     font-size: 12px;
     font-weight: bolder;
     vertical-align: middle;
@@ -53,3 +62,78 @@ div {
     margin-top: 5px;
 }
 
+.content .head .more span {
+    font-size: 16px;
+}
+
+.content .news {
+    display: block;
+}
+
+.content .news .newsimg {
+    width: 35%;
+    display: inline-block;
+}
+
+.content .news .newstitle {
+    margin-top: 10px;
+    display: inline-block;
+    width: 63%;
+}
+
+.content .news .newstitle li {
+    padding: 1px;
+}
+
+.newstitleclicked {
+    /*
+    background: #7f9390;
+    box-shadow: 0px 0px 5px #2b2b2b;
+    border: 5px;
+    border-radius: 3px;
+    padding: 3px;
+    */
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.newstitleclicked span {
+    font-size: 22px;
+}
+
+.newstitleclicked a {
+    text-decoration: none;
+    color: #032b83;
+    vertical-align: middle;
+}
+
+.newstitleclicked p {
+    display: inline-block;
+    float: right;
+    right: 0px;
+    font-size: 16px;
+}
+
+.content .newsli p {
+    display: inline-block;
+    float: right;
+    right: 0px;
+}
+
+.content .newsli {
+    list-style-type: none;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    vertical-align: middle;
+}
+
+.content .newsli span {
+    font-size: 18px;
+}
+
+.content .newsli a {
+    text-decoration: none;
+    color: #333;
+    vertical-align: middle;
+}
