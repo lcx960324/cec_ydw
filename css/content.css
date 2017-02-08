@@ -150,6 +150,7 @@ header {
 	width: 100%;
 	text-align: left;
 	font-weight: normal;
+	/*padding-left:10px;*/
 	color: #0B98FF;
 	text-decoration: underline;
 }
@@ -188,15 +189,16 @@ header {
 }
 
 .newsnr .content {
-	padding: 10px;
+	padding-left: 10px;
+	padding-right:150px;
 	font-size: 14px;
 	line-height: 1.8;
 }
 
 .newsnr .content img {
 	max-width: 980px;
-	width: expression(document.body.clientWidth>980?"980px":"auto");
 	overflow: hidden;
+	/*width: expression(document.body.clientWidth>980?"980px":"auto");*/
 }
 
 .newsnr .content .fenxiang {
