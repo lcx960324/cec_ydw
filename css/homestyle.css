@@ -277,3 +277,9 @@ div {
     float: right;
     right: 0px;
 }
+
+.textnews a {
+    text-decoration: none;
+    color: #333;
+    vertical-align: middle;
+}
