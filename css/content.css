@@ -1,0 +1,208 @@
+/*header footer css开始*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", Tahoma, Geneva, Verdana, sans-serif, "Segoe UI Symbol";
+}
+
+a {
+    text-decoration: none;
+}
+
+body hr {
+    /*height:1px;*/
+    height: 0px;
+    border: none;
+    color: #e0e0e0;
+    /*border: 1px solid #eee;*/
+}
+
+body {
+    margin: 0 auto;
+    width: 1024px;
+    /*background: #e8e8e8;*/
+    background: #747d93;
+}
+
+/*html5*/
+article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+    display: block;
+}
+
+.container {
+    box-shadow: 0px 0px 10px #1b1b1b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer {
+    box-shadow: 0px 0px 10px #1b1b1b;
+    width: 1014px;
+    text-align: center;
+    background: #7ed321;
+    padding: 5px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px;
+}
+/* header */
+header {
+    top: 0px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* nav */
+
+.navbar {
+    width: 100%;
+    height: 0px;
+    top: -44px;
+    position: relative;
+}
+#nav {
+    background: url("../img/opacity.png") repeat;
+    color: #fff;
+    z-index: 50;
+    display: block;
+    list-style-type: none;
+    height: 40px;
+    /*position: relative;
+    float: left;*/
+    width : 100%;
+    left: 0;
+    position: absolute;
+}
+#nav li {
+    float: left;
+    width: 20%;
+    _display: inline;
+    position: relative;
+    z-index: 60;
+    list-style-type: none;
+    text-align: center;
+}
+#nav li a {
+    width: 190px;
+    display: block;
+    line-height: 40px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    padding: 0px;
+    text-decoration: none;
+}
+#nav li ul {
+    background: #000;
+    /*background: rgba(0, 0, 0, 0.7);*/
+    position: absolute;
+    top: 40px;
+    width: 190px;
+    z-index: 2;
+    padding: 5px 0;
+    display: none;
+    list-style-type: none;
+    background: url("../img/opacity.png") repeat;
+}
+#nav li ul li {
+    text-align: center;
+    float: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    transition: 0.3s;
+}
+#nav li ul li a {
+    font-weight: normal;
+    line-height: 26px;
+    padding: 0px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+#nav li ul li:hover {
+    margin-left: 10px;
+}
+#nav li.last ul {
+    left: -77px;
+}
+/*header footer css结束*/
+
+/*内页面css开始*/
+/*content外框*/
+.newsbox {
+	margin: auto;
+	height: 1000 px;
+	background: #FFFFFF;
+}
+
+.block {
+	margin: 0 auto;
+}
+/*位置*/
+#path  a:hover {
+	width: 100%;
+	text-align: left;
+	font-weight: normal;
+	/*padding-left:10px;*/
+	color: #0B98FF;
+	text-decoration: underline;
+}
+ #info{
+	text-align:center;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	}
+/*ssss*/
+ #info span {
+	display:inline-block;
+	margin:0 auto;
+	font-size:12px;
+	color:#666;
+	line-height: 25px;
+}
+/*h1标题*/
+.newsnr h1.newstitle {
+	text-align: center;
+	font-size: 22px;
+	line-height: 56px;
+	font-weight: normal;
+}
+
+#a-color {
+	font-weight: normal;
+	color: #5f5f5f;
+}
+/*文章内容*/
+.newsnr p.newsxx {
+	text-align: center;
+	font-size: 12px;
+	color: #505050;
+
+}
+
+.newsnr .content {
+	padding-left: 100px;
+	padding-right:150px;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+.newsnr .content img {
+	max-width: 980px;
+	overflow: hidden;
+	/*width: expression(document.body.clientWidth>980?"980px":"auto");*/
+}
+
+.newsnr .content .fenxiang {
+	display: block;
+	height: 25px;
+	margin: 10px 0;
+}
