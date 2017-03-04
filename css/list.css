@@ -148,10 +148,15 @@ header {
 	border-bottom: 1px solid #eee;
 }
 /*位置*/
-#path  a:hover {
+#path{
 	width: 100%;
 	text-align: left;
 	font-weight: normal;
+	padding-top:20px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+}
+#path  a:hover {
 	color: #0B98FF;
 	text-decoration: underline;
 }
