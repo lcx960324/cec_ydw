@@ -9,19 +9,36 @@ div {
     height: 735px;
     display: inline-block;
 }
-.leftsmall {
+
+.leftsmall1 {
     margin: 3px;
     border: solid #032b83 1px;
     border-radius: 5px;
     width: 97%;
+    height: 250px;
 }
 
+.leftsmall2 {
+    margin: 3px;
+    border: solid #032b83 1px;
+    border-radius: 5px;
+    width: 97%;
+    height: 232px;
+}
+
+.leftsmall3 {
+    margin: 3px;
+    border: solid #032b83 1px;
+    border-radius: 5px;
+    width: 97%;
+    height: 232px;
+}
 .rightbig {
     margin: 3px 3px 0px 3px;
     border: solid #032b83 1px;
     border-radius: 5px;
     width: 300px;
-    height: 724Px;
+    height: 723Px;
     float: right;
     display: inline-block;
 }
