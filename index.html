@@ -279,15 +279,18 @@
             var ul2 = $(".textnews")[i].children[2].children[0];
             var list1 = ul1.children;
             var list2 = ul2.children;
+            var list = [];
             for (var j = 0; j < list1.length; j++) {
-                if (j >= 8 && j <= 15) {
+                if (j >= 8) {
                     var l = list1[j];
-                    j--;
-                    l.remove();
-                    ul2.appendChild(l);
-                } else if (j >= 16) {
-                    list1[j].remove();
+                    list.push(l);
                 }
+            }
+            for (var j = 0; j < list.length; j++) {
+                list[j].parentNode.removeChild(list[j]);
+            }
+            for (var j = 0; j < list.length; j++) {
+                ul2.appendChild(list[j]);
             }
         }
     });
