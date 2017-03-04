@@ -6,21 +6,22 @@ div {
 
 .leftbig {
     width: 700px;
+    height: 735px;
     display: inline-block;
 }
 .leftsmall {
     margin: 3px;
-    border: solid #032b83 2px;
+    border: solid #032b83 1px;
     border-radius: 5px;
     width: 97%;
 }
 
 .rightbig {
     margin: 3px 3px 0px 3px;
-    border: solid #032b83 2px;
+    border: solid #032b83 1px;
     border-radius: 5px;
     width: 300px;
-    height: 682px;
+    height: 724Px;
     float: right;
     display: inline-block;
 }
@@ -31,7 +32,7 @@ div {
 
 .board {
     height: 180px;
-    border-bottom: solid 2px #032b83;
+    border-bottom: solid 1px #032b83;
 }
 
 .rightsmall .head {
@@ -257,7 +258,7 @@ div {
 .textnews .line {
     display: inline-block;
     background: url("../img/slinegrey.png") repeat-y;
-    height: 160px;
+    height: 180px;
     width: 10px;
     margin-top: 10px;
 }
