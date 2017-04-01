@@ -111,20 +111,20 @@ div {
 }
 
 .friendlink {
-    padding: 10px;
+    padding: 5px;
     display: block;
 }
 
 .friendlink img {
     display: inline-block;
-    height: 80px;
+    height: 60px;
 }
 
 .friendlink p {
     padding-top: 20px;
     color: #000000;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     float: right;
 }
 
