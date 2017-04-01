@@ -188,7 +188,12 @@ header {
 .newsnr p.newsxx {
 	text-align: center;
 	font-size: 12px;
+    text-indent: 2em;
 	color: #505050;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 
 }
 
