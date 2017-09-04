@@ -21,6 +21,7 @@ body hr {
 body {
     margin: 0 auto;
     width: 1024px;
+    /*text-align: center;*/
     /*background: #e8e8e8;*/
     background: #747d93;
 }
@@ -239,4 +240,84 @@ div.page_normal {
 .page_normal .page_prev {
 	color:#000000;
 }
+/*second_list  begin*/
+.leftbig {
+
+}
+
+.sec_container{
+    margin: auto;
+    /*height: 1000 px;*/
+    background: #FFFFFF;
+}
+
+.contest {
+    margin:30px auto ;
+    width: 97%;
+    /*height: 735px;*/
+    display: inline-block;
+}
+#id_title{
+    text-align: left;
+}
+#id_end{
+    text-align: right;
+}
+.contest_contain {
+    margin: 0 auto;
+    border: solid #032b83 1px;
+    border-radius: 5px;
+    width: 97%;
+}
+.contest .head {
+    margin-top: 2px;
+    margin-left: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.33);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 5px;
+    width: 97%;
+    top: 0;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid #e0e0e0;
+}
+.contest .head h3 {
+    /*margin-left: 5px;*/
+    /*margin-bottom: 3px;*/
+    text-align: left;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 16px;
+    color: #0d0d0d;
+    vertical-align: middle;
+}
+.contest .head h3 span {
+    color: #619fe6;
+    font-size: 17px;
+}
+.contest .head .more {
+    vertical-align: middle;
+    float: right;
+    font-weight: normal;
+    font-size: 13px;
+    color: #0d0d0d;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.contest .head .more:hover {
+    color: blue;
+}
+.contest .head .more span {
+    font-size: 16px;
+}
+
+.listbox2{
+    margin:10px auto;
+    background:#FFFFFF;
+    overflow:hidden;
+}
+
+/*second_list  end*/
 /*list页面 css结束*/
