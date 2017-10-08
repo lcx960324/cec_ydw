@@ -208,7 +208,7 @@ header {
 }
 
 .newsnr .content img {
-	max-width: 980px;
+	max-width: 850px;
 	overflow: hidden;
 	/*width: expression(document.body.clientWidth>980?"980px":"auto");*/
 }
