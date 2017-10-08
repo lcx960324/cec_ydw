@@ -66,6 +66,7 @@ div {
 
 .board .boardtext {
     font-size: 14px;
+    line-height: 20px;
     margin: 4px;
     padding: 6px;
     border: 1px solid #dddee1;
