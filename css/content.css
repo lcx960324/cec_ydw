@@ -198,10 +198,13 @@ header {
 }
 
 .newsnr .content {
-	padding-left: 100px;
-	padding-right:150px;
-	font-size: 14px;
-	line-height: 1.8;
+	/* padding-left: 100px;
+    padding-right:150px; */
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 900px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .newsnr .content img {

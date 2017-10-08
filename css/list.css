@@ -140,7 +140,7 @@ header {
 .listbox{ 
 	margin:auto; 
 	background:#FFFFFF; 
-	overflow:hidden;
+    overflow:hidden;
 }
 /*.block{
 	 margin:0 auto;
@@ -174,13 +174,15 @@ header {
 }
 /*列表*/
 #listnews{
-	width:920px;
-	background:#fff;
-	float:left;
+    width: 920px;
+    background:#fff;
+    margin: 10px auto;
+	/* float:left; */
 }
 #listnews ul li {
-	padding-left:120px;
-	padding-right:0px;
+    list-style: none;
+    height: 24px;
+    line-height: 24px;
 }
 #listnews ul li a {
 	text-decoration:none;
@@ -188,7 +190,7 @@ header {
 	font-size:16px;
 }
 #listnews ul li a:hover {
-	color:red;
+    color: #0A89FF;
 	text-decoration:underline;
 }
 #listnews ul li span {
@@ -211,8 +213,8 @@ div.page_normal {
 	line-height:15px;
 	overflow:hidden;
 	clear:left;
-	padding-top:20px;
-	padding-bottom:5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	border-top: 1px solid #eee;   
 }
 .page_normal a,.page_normal .page_current,.page_normal .page_prev {
@@ -252,10 +254,11 @@ div.page_normal {
 }
 
 .contest {
-    margin:30px auto ;
-    width: 97%;
+    margin: 10px auto;
+    /* width: 97%; */
     /*height: 735px;*/
-    display: inline-block;
+    width: 950px;
+    /* display: inline-block; */
 }
 #id_title{
     text-align: left;
@@ -265,19 +268,20 @@ div.page_normal {
 }
 .contest_contain {
     margin: 0 auto;
-    border: solid #032b83 1px;
+    /* border: solid #032b83 1px; */
     border-radius: 5px;
-    width: 97%;
+    /* width: 97%; */
 }
 .contest .head {
     margin-top: 2px;
     margin-left: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.33);
-    border-bottom-right-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+    /* border-bottom-right-radius: 15px;
     border-bottom-left-radius: 5px;
     border-top-right-radius: 15px;
-    border-top-left-radius: 5px;
-    width: 97%;
+    border-top-left-radius: 5px; */
+    border-radius: 4px;
+    /* width: 97%; */
     top: 0;
     padding: 2px 5px 2px 5px;
     border: 1px solid #e0e0e0;
@@ -314,7 +318,7 @@ div.page_normal {
 }
 
 .listbox2{
-    margin:10px auto;
+    margin: 0 auto;
     background:#FFFFFF;
     overflow:hidden;
 }
