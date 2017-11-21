@@ -48,7 +48,7 @@ div {
 }
 
 .board {
-    height: 180px;
+    height: 240px;
     margin-bottom: 2px;
     /* border-bottom: solid 1px #032b83; */
 }
@@ -71,7 +71,7 @@ div {
     padding: 6px;
     border: 1px solid #dddee1;
     border-radius: 0 0 4px 4px;
-    height: 125px;
+    height: 185px;
 }
 
 .onlinetest {
@@ -79,8 +79,8 @@ div {
     text-align: center;
     vertical-align: middle;
     background: url('../img/green.png');
-    height: 80px;
-    line-height: 80px;
+    height: 60px;
+    line-height: 60px;
     /* font-weight: bold; */
     margin: 0 4px;
     color: #ffffff;
@@ -93,9 +93,9 @@ div {
     text-align: center;
     vertical-align: middle;
     background: url('../img/blue.png');
-    height: 80px;
+    height: 60px;
     margin: 0 4px;
-    line-height: 80px;
+    line-height: 60px;
     color: #ffffff;
     font-size: 24px;
 }
@@ -104,9 +104,9 @@ div {
     text-align: center;
     /* padding-top: 20px; */
     background: url('../img/red.png');
-    height: 80px;
+    height: 60px;
     margin: 0 4px;
-    line-height: 80px;
+    line-height: 60px;
     color: #ffffff;
     font-size: 24px;
     margin-bottom: 4px;

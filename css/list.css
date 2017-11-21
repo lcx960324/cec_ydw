@@ -162,7 +162,7 @@ header {
 	text-decoration: underline;
 }
 /*<a>颜色*/
-#a-color {
+.a-color {
 	font-weight: normal;
 	color: #5f5f5f;
 }
